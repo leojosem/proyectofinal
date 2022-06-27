@@ -7,6 +7,4 @@ Proyecto final de curso Desarrollo Web
 
 - 📫 How to reach me **leojmadueno@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+
