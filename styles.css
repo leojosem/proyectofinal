@@ -39,6 +39,11 @@ body{
 
 }
 
+.cabecera__lista li a:hover{
+    transform: scale(1.3);
+    color: #DF0174;
+}
+
 .cabecera__lista__item{
     font-family: Arial, sans-serif;
     padding: 10px 20px;
@@ -105,6 +110,11 @@ body{
     border-radius: 50%;
 }
 
+.galeria img:hover{
+    filter: brightness(60%);
+    
+} 
+
 .grid-container-galeria-index{
     display: grid;
     margin: 0px 150px;
@@ -130,6 +140,11 @@ footer{
     margin: 5px 10px;
     width: 40px;
     display: inline;
+
+}
+
+.rs:hover{
+    transform: scale(1.5);
 }
 
 .grid-container-nosotros{
