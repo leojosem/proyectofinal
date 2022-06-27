@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: #FFFFFF;
+}
+
+.logo{
+    width: 10%;
+    padding-left: 20px;
+}
+
+.cabecera{
+    width: 100%;
+    height: fit-content;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+}
+
+.cabecera__lista li a{
+    text-decoration: none;
+    color: #F9A2A9;
+    font-weight: bold;
+}
+
+.cabecera__lista__item{
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    display: inline;
+}
+
+div .carrousel__tresleches {
+    width: 100%;
+    height: 450px;   
+}
+
+.info{
+    width: 60%;
+    float: left;
+}
+
+.info div{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    background-color: #ECECEC;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.info div img{
+    max-width: 300px;
+    max-height: auto;
+}
+
+.info div p{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.galeria{
+    float: left;
+}
+
+.galeria div {
+    width: 200px;
+    padding: 10px;
+}
+
+.galeria div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #ECECEC;
+    clear: both;
+    display: flex;
+}
+
+
+.rs{
+    margin: 5px 10px;
+    width: 40px;
+}
+
+.nosotros{
+    background-color: #ECECEC;
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    margin: 2% auto;
+}
+
+.nosotros .repostera{
+    border-radius: 50%;
+}
+
+.nosotros p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    margin: 2% auto;
+
+}
+
+.nosotros .repostero{
+    width: 100%;
+}
+
+.productos{
+    background-color: #ECECEC;
+    width: 90%;
+    height: auto;
+    padding: 2%;
+    margin: 2% auto;
+}
+
+.productos div{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.productos div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 30px;
+    border: #F9A2A9 5px solid;
+}
+
+.productos div p{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #F9A2A9;
+}
+
+
+
+
+
+
+.servicios{
+    background-color: #ECECEC;
+    width: 90%;
+    height: auto;
+    padding: 2%;
+    margin: 2% auto;
+}
+
+.servicios div{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.servicios div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 30px;
+    border: #F9A2A9 5px solid;
+}
+
+.servicios div p{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #F9A2A9;
+}
+
+.contacto{
+    background-color: #ECECEC;
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    margin: 2% auto;
+}
+
+.contacto h1{
+    color: #F9A2A9;
+    margin-bottom: 2%;
+    font-size: 100px;
+}
+
+.contacto .form{
+    width: 60%;
+    height: fit-content;
+    margin: 30px 0;
+    font-family: Arial, sans-serif;
+    border: 2px white solid;
+    background-color: #F9A2A9;
+    border-radius: 10px;
+}
+
+.contacto .form .controls{
+    width: 95%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #F9A2A9;
+    border: 1px white solid;
+    color: #FFFFFF;
+    margin: 2%;
+    font-size: 20px;
+}
+
+.contacto .mall{
+    width: 60%;
+
+}
+
+.contacto .mall img{
+    width: 30%;
+    height: auto;
+}
+.contacto p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    text-align: justify;
+}
+
+.contacto .form .text{
+    width: 95%;
+    height: 200px;
+}
